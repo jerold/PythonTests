@@ -29,3 +29,9 @@ print False == isHidden(Point(0.0, 0.0), Point(20.0, 20.0), Body(5.0, Point(10.0
 print False == isHidden(Point(0.0, 0.0), Point(20.0, -20.0), Body(5.0, Point(10.0, 0.0)))
 
 # makin a change AGAIN :D
+
+# ShipToPlanetDist = sqrt(X_Planet - X_Ship) ^ 2 + (Y_Planet - Y_Ship) ^ 2)
+# ShipToEnemyDist = sqrt((X_Enemy - X_Ship) ^ 2 + (Y_Enemy - Y_Ship) ^ 2)
+# TangentLineAngleWithShipToPlanetAxis = arcsin(PlanetRadius / ShipToPlanetDist)
+# EnemyShipAngleWithShipToPlanetAxis = arccos( ((X_Enemy - X_Ship) * (X_Planet - X_Ship) + (Y_Enemy - Y_Ship) * (Y_Planet - Y_Ship)) ...
+# 					/ (ShipToPlanetDist * ShipToEnemyDist))
